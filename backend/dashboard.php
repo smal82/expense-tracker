@@ -4,7 +4,7 @@ session_start();
 
 // Verifica login
 if (!isset($_SESSION['admin_logged_in'])) {
-    header('Location: index.php');
+    header('Location: /.');
     exit;
 }
 
@@ -63,7 +63,7 @@ $expenses = $conn->query("
             <!-- Menu Desktop -->
             <div class="header-menu desktop-menu">
                 <button onclick="openAddModal()" class="btn btn-success btn-sm">➕ Nuova Spesa</button>
-                <a href="../index.php" class="btn btn-primary btn-sm">👁️ Frontend</a>
+                <a href="../." class="btn btn-primary btn-sm">👁️ Frontend</a>
                 <a href="logout.php" class="btn btn-danger btn-sm">Esci</a>
             </div>
             
@@ -81,7 +81,7 @@ $expenses = $conn->query("
                 <span class="menu-icon">➕</span>
                 <span>Aggiungi Nuova Spesa</span>
             </button>
-            <a href="../index.php" class="mobile-menu-item">
+            <a href="../." class="mobile-menu-item">
                 <span class="menu-icon">👁️</span>
                 <span>Visualizza Frontend</span>
             </a>
