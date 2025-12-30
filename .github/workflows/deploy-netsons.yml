@@ -1,4 +1,6 @@
 name: 🚀 Deploy su Netsons
+permissions:
+  contents: read
 on:
   push:
     branches: [ main ]
