@@ -1,9 +1,9 @@
 <?php
 // config/database.php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'raosmqxe_magazzino');
-define('DB_USER', 'raosmqxe_magazzino');
-define('DB_PASS', 'g4!go,qc~5KI');
+define('DB_HOST', '');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 
 try {
     $conn = new PDO(
