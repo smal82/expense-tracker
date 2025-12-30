@@ -1,5 +1,5 @@
 <?php
-// index.php - Frontend pubblico - Focus sulla quotidianità
+// index.php - Frontend pubblico
 require_once 'config/database.php';
 
 // Ottieni data o range di date
