@@ -142,7 +142,7 @@ foreach ($line_dates as $date) {
                     <div class="stat-value"><?php echo $stats['count'] ?? 0; ?></div>
                 </div>
                 <div class="stat-item">
-                    <a href="backend/index.php" class="btn btn-primary btn-sm">🔐 Admin</a>
+                    <a href="backend/" class="btn btn-primary btn-sm">🔐 Admin</a>
                 </div>
             </div>
         </div>
@@ -182,7 +182,7 @@ foreach ($line_dates as $date) {
                     
                     <div class="form-group">
                         <label class="form-label">&nbsp;</label>
-                        <a href="index.php" class="btn btn-primary" style="display: block; text-align: center;">🔄 Reset</a>
+                        <a href="./" class="btn btn-primary" style="display: block; text-align: center;">🔄 Reset</a>
                     </div>
                 </div>
             </form>
